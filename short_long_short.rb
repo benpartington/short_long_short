@@ -1,3 +1,7 @@
 def short_long_short(a, b)
-  a + b + a
+  if a.size > b.size
+    b + a + b
+  else
+    a + b + a
+  end
 end
